@@ -6,13 +6,13 @@
 
 
 	<!--ICONO EN LA PESTAÑA-->
-	<link rel="shortcut icon" href="harry_potter.ico">
+	<link rel="shortcut icon" href="multimedia/harry_potter.ico">
 
 	<!--para que el ICONO se ponga-->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 
-	<!--INIIANDO BOOTSTRAP-->
+	<!--INICIANDO BOOTSTRAP-->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -30,29 +30,28 @@
 	
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
 	<script type="text/javascript" src="js/query-3.2.1.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script src="js/script.js"></script>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<!--CONTAINER PRINCIPAL-->
+    <!--CONTAINER PRINCIPAL-->
 	<div class="jain-container">
-	<!--BARRA DE NAVEGACION -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid" style="border: 1px solid aqua; padding-left: 0; padding-right: 0;">
-				<div class="container" style="border:2px solid gray; margin-top: 2cm; padding-left: 0; padding-right: 0;">
-
+	   <!--BARRA DE NAVEGACION -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="container">
 				<!--LOGO-->
-					<div class="col-md-3" style="border: 1px solid black; height: 90px; height: 65px;">
-						<img class="img-renponsive" src="img/potterhead.png" style="width: 100px;">
+					<div class="col-md-3">
+						<img class="img-renponsive" src="img/potterhead.png" style="width: 125px;">
 					</div>
-
 				<!--MENU-->
-					<div class="col-md-9" style="border: 1px solid red; padding-left: 0; padding-right: 0;">
-		<!--barra de navegacion collapse-->
+					<div class="col-md-9">
+		                <!--barra de navegacion collapse-->
 						<div class="collapse navbar-collapse">
 							<ul class="nav navbar-nav">
 								<li><a href="#" >Inicio</a></li>
@@ -60,39 +59,39 @@
 								<li><a href="#" >Datos Curiosos</a></li> <!--En remplazo de Historia-->
 								<li><a href="#" >Noticias</a></li>
 								<li><a href="#" >Contacto</a></li>
-
 							</ul>
-
-		<!--FIN barra de navegacion collapse-->
-						</div> 
-						
+		                <!--FIN barra de navegacion collapse-->
+						</div> 						
 					</div>
 				</div>
-				
-
-
-			</div>
-			
+			</div>	
 		</nav>
-		<div class="carousel media-carousel" data-ride="carousel">
+	<!--carousel-->
+		<div class="carousel media-carousel" id="media" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="item-active">
 					<img class="img-renponsive" src="img/castillo.jpg">
+					<div class="carousel-caption">
+						<h3>Solo los magos pueden ver este sitio web</h3>
+						<p>NO muggles, squib y sangre sucias </p>
+					</div>
 				</div>
+
 				<div class="item">
 					<img class="img-renponsive" src="img/pelea.jpg">
+					<div class="carousel-caption">
+						<h3>Lorem ipsum dolor sit amet.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					</div>
 				</div>
 				<div class="item">
 					<img class="img-renponsive" src="img/quidditch.jpg">
 				</div>
 			</div>
-
-			
-		</div>
-		
-		
+			<a class="left carousel-control" data-slide="prev" href="media"><i class="fas fa-chevron-left"></i> </a>
+			<a class="right carousel-control" data-slide="next" href="media"><i class="fas fa-chevron-right"></i> </a>
+		</div>	
 	</div> <!-- FIN  CONTAINER PRINCIPAL-->
-
-<script src="js/wow.min.js"></script>
+<!--<script src="js/wow.min.js"></script>-->
 </body>
 </html>
